@@ -1,0 +1,26 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Password reset on localhost:8000
+From: webmaster@localhost
+To: aapa96@gmail.com
+Date: Thu, 08 Aug 2019 15:25:06 -0000
+Message-ID: 
+ <156527790668.11473.18050234279507747470@MacBook-Pro-de-Alex.local>
+
+
+You're receiving this email because you requested a password reset for your user account at localhost:8000.
+
+Please go to the following page and choose a new password:
+
+http://localhost:8000/appTest/reset/MQ/58p-3436e3ab5d2ed6121fd8/
+
+Your username, in case you've forgotten: aapa96
+
+Thanks for using our site!
+
+The localhost:8000 team
+
+
+
+-------------------------------------------------------------------------------
