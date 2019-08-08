@@ -6,12 +6,16 @@
   Ya estas logueado
   <p><a href="{% url 'home' %}">Home</a></p>
 {% else %}
-  <h2>Login</h2>
-  <form method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit">Login</button>
-  </form>
+<div class="context">
+  <div class="container">
+      <div class="container-header"><h2>Login</h2></div>
+      <form method="post" class="form-control">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button class="btn" type="submit">Enviar</button>
+      </form>
+  </div>
+</div>
 
 {% endif %}
 {% endblock %}

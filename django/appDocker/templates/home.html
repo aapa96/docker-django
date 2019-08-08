@@ -5,10 +5,12 @@
 
 {% block content %}
 {% if user.is_authenticated %}
-  Bienvenido {{ user.get_full_name }}!
-  <p><a href="{% url 'logout' %}">logout</a></p>
+  <p class="welcome">  Bienvenido</p>
+  <p class="welcome">{{ user.get_full_name }}!</p>
+  <p class="welcome"> <br> <a href="{% url 'logout' %}">Cerrar sesion</a></p>
 {% else %}
-  <p>No estas logueado click aqui <a href="{% url 'login' %}">login</a></p>
+  <p class="welcome">No estas logueado click aqui</p>
+  <p class="welcome"> <a href="{% url 'login' %}">Iniciar sesion</a></p>
 
 {% endif %}
 {% endblock %}

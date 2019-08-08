@@ -7,6 +7,6 @@ urlpatterns = [
     path('appTest/', TemplateView.as_view(template_name='home.html'), name='home'),
     path('appTest/', include('django.contrib.auth.urls')), 
     path('', TemplateView.as_view(template_name='home.html'), name='home'),
-    path('test/', include('appTest.urls'))
+    path('appTest/', include('appTest.urls'))
     
 ]

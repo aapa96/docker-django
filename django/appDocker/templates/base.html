@@ -3,10 +3,13 @@
 <html>
 <head>
   <meta charset="utf-8">
+  {% load static %}
   <title>{% block title %}App Test{% endblock %}</title>
+
+  <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
 </head>
 <body>
-  <main>
+  <main class="container">
     {% block content %}
     {% endblock %}
   </main>
